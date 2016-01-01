@@ -14,6 +14,8 @@
 		4A08654A1C34E87D0098DEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0865481C34E87D0098DEDC /* LaunchScreen.storyboard */; };
 		4A0865551C34E87D0098DEDC /* Tip_Calculator_Take_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0865541C34E87D0098DEDC /* Tip_Calculator_Take_2Tests.swift */; };
 		4A0865601C34E87E0098DEDC /* Tip_Calculator_Take_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A08655F1C34E87E0098DEDC /* Tip_Calculator_Take_2UITests.swift */; };
+		4A0865701C351AB90098DEDC /* extra tip calculator in Resources */ = {isa = PBXBuildFile; fileRef = 4A08656F1C351AB90098DEDC /* extra tip calculator */; };
+		4A0865761C3527F00098DEDC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0865751C3527F00098DEDC /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4A08655B1C34E87E0098DEDC /* Tip Calculator Take 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip Calculator Take 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A08655F1C34E87E0098DEDC /* Tip_Calculator_Take_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_Calculator_Take_2UITests.swift; sourceTree = "<group>"; };
 		4A0865611C34E87E0098DEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A08656F1C351AB90098DEDC /* extra tip calculator */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "extra tip calculator"; sourceTree = "<group>"; };
+		4A0865751C3527F00098DEDC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "Tip Calculator Take 2/SettingsViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		4A0865331C34E87D0098DEDC = {
 			isa = PBXGroup;
 			children = (
+				4A0865751C3527F00098DEDC /* SettingsViewController.swift */,
 				4A08653E1C34E87D0098DEDC /* Tip Calculator Take 2 */,
 				4A0865531C34E87D0098DEDC /* Tip Calculator Take 2Tests */,
 				4A08655E1C34E87E0098DEDC /* Tip Calculator Take 2UITests */,
@@ -99,6 +104,7 @@
 			children = (
 				4A08653F1C34E87D0098DEDC /* AppDelegate.swift */,
 				4A0865411C34E87D0098DEDC /* ViewController.swift */,
+				4A08656F1C351AB90098DEDC /* extra tip calculator */,
 				4A0865431C34E87D0098DEDC /* Main.storyboard */,
 				4A0865461C34E87D0098DEDC /* Assets.xcassets */,
 				4A0865481C34E87D0098DEDC /* LaunchScreen.storyboard */,
@@ -235,6 +241,7 @@
 				4A08654A1C34E87D0098DEDC /* LaunchScreen.storyboard in Resources */,
 				4A0865471C34E87D0098DEDC /* Assets.xcassets in Resources */,
 				4A0865451C34E87D0098DEDC /* Main.storyboard in Resources */,
+				4A0865701C351AB90098DEDC /* extra tip calculator in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 			files = (
 				4A0865421C34E87D0098DEDC /* ViewController.swift in Sources */,
 				4A0865401C34E87D0098DEDC /* AppDelegate.swift in Sources */,
+				4A0865761C3527F00098DEDC /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
